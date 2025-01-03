@@ -17,6 +17,7 @@ pub struct ThorchainAsset {
     pub ticker: String,
     pub synth: bool,
     pub trade: bool,
+    pub secured: bool,
 }
 
 impl ThorchainAsset {
@@ -26,7 +27,8 @@ impl ThorchainAsset {
             symbol: self.symbol.clone(),
             ticker: self.ticker.clone(),
             synth: self.synth,
-            trade: self.trade,
+            secured: self.secured,
+
         }
     }
 }

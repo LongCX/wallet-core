@@ -13,6 +13,7 @@ message Asset {
     string ticker = 3;
     bool synth = 4;
     bool trade = 5;
+    bool secured = 6;
 }
 
 // Original: https://gitlab.com/thorchain/thornode/-/blob/develop/proto/thorchain/v1/common/common.proto
