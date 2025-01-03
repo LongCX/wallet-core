@@ -27,6 +27,7 @@ impl ThorchainAsset {
             symbol: self.symbol.clone(),
             ticker: self.ticker.clone(),
             synth: self.synth,
+            trade: self.trade,
             secured: self.secured,
 
         }
