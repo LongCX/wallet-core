@@ -9,7 +9,7 @@ fi
 
 export ANDROID_HOME="$HOME/Library/Android/sdk"
 pushd android
-./gradlew clean build assembleRelease publish -Pversion="1.0.0"
+./gradlew clean build assembleRelease publish -Pversion="2.0.1"
 
 echo "Android build uploaded"
 popd # android
